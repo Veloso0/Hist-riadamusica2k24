@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body
+{
+    color: black;
+    font-size: 12pts;
+    font-family: Arial, Helvetica, sans-serif; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,17,182,1) 17%, rgba(0,212,255,1) 100%);
+    text-align: center;
+}
+
+h1
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(255, 255, 255);
+text-align: justify;
+font-size: 30pt;
+}
+h2
+{
+  font-size: 20pt;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(84, 116, 223);
+    padding: 20px 20px;
+  }
+  
+  nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }    
+  p
+  { color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25pt;
+    
+    }
+    a
+    {text-decoration: none;
+    
+    }
+    li
+    { font-size: 15pt;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+    
+
